@@ -1,0 +1,4 @@
+#name : staffsize
+# --
+\set Staff.fontSize = $1
+\override Staff.StaffSymbol #'staff-space = #(magstep $1)
