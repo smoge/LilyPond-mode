@@ -1,0 +1,11 @@
+#name : header 
+# --
+\header {
+    dedication = "$1"
+    title = "$2"
+    subtitle = "$3"
+    instrument = "$4"
+    composer = "$5"
+    copyright = "© %6"
+    tagline = "%7"
+}
